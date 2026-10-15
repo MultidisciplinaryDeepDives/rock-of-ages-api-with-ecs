@@ -6,4 +6,4 @@ terraform {
     dynamodb_table = "rock-of-ages-terraform-locks"  
     encrypt        = true
   }
-} 
+}
