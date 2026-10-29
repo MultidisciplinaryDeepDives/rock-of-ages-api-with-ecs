@@ -207,7 +207,7 @@ resource "aws_iam_role" "ecs_task_execution_role" {
 }
 
 # Policy that allows S3 access
-rresource "aws_iam_role_policy" "ecs_task_s3_policy" {
+resource "aws_iam_role_policy" "ecs_task_s3_policy" {
   name = "ecs-task-s3-policy"
   role = aws_iam_role.ecs_task_role.id
 
